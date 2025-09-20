@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "primeicons/primeicons.css";
+
+@plugin "tailwindcss-primeui";
+
+/* Tema personalizado PrimeNG: Verde Interbank */
+:root {
+  --primary-50:   #eaf7e4;
+  --primary-100:  #d0eec7;
+  --primary-200:  #b2e3a7;
+  --primary-300:  #8fd87f;
+  --primary-400:  #6dcb57;
+  --primary-500:  #43B02A; /* Verde Interbank */
+  --primary-600:  #399c24;
+  --primary-700:  #2e851e;
+  --primary-800:  #236e18;
+  --primary-900:  #15500e;
+}
+
